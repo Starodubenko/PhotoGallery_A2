@@ -13,10 +13,9 @@
   },
   "files": [
     "./app/app.ts",
-    "./app/components/about/about.ts",
-    "./app/components/home/home.ts",
+    "./app/components/**/*.ts",
     "./app/init.ts",
-    "./app/services/NameList.ts",
+    "./app/services/*.ts",
     "./app/typings/_custom.d.ts",
     "./tsd_typings/angular2/angular2.d.ts",
     "./tsd_typings/angular2/router.d.ts",

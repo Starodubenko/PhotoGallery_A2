@@ -168,7 +168,7 @@ gulp.task('build.assets.dev', [
 ], function () {
 
     
-        gulp.src(['./app/**/*.sass', './app/**/*.scss'])
+        gulp.src(['./app/**/*.sass', './app/**/*.scss', './app/**/**/*.scss'])
             .pipe(sass().on('error', sass.logError))
             .pipe(gulp.dest(PATH.dest.dev.all));
 

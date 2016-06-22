@@ -2,10 +2,10 @@ import {Component, View} from 'angular2/angular2';
 import {RouterLink} from 'angular2/router';
 
 @Component({
-    selector: 'home'
+    selector: 'gallery'
 })
 @View({
-    templateUrl: './components/home/home.html?v=<%= VERSION %>',
+    templateUrl: './components/gallery/gallery.html',
     directives: [RouterLink]
 })
-export class Home {}
+export class Gallery {}
